@@ -10,7 +10,7 @@ Errors raised by the linter will show for each file:
 - a description of the issue
 - the path to the rule that flagged the issue
 
-If you would like to suggest a change an existing rule, such as adding an acronym to our list of exceptions, please raise this in the [#ask-di-tech-writing-architecture](https://gds.slack.com/archives/C06V5UTTJNP) slack channel, and it will be discussed in our regular forum.
+If you would like to suggest a change an existing rule, such as adding an acronym to our list of exceptions, please raise this in the [#ask-di-tech-writing-architecture](https://gds.slack.com/archives/C06V5UTTJNP) Slack channel, and it will be discussed in our regular forum.
 
 ## Installing the linter on your local machine
 
@@ -23,7 +23,7 @@ To use the linter (Vale), you must provide a config file which describes where t
 
 ## Running the linter on your local machine
 
-By default, Vale must be run from the same directory as this config file, unless the `--config` flag is provide with a path.
+By default, Vale must be run from the same directory as this config file, unless the `--config` flag is provided with a path.
 
 1. In a terminal window, navigate to your repo
 1. Run `vale sync` to download the latest tech-docs-linter package and unzip this to your `StylesPath` listed in your config file
