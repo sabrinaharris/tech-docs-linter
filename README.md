@@ -10,6 +10,8 @@ Errors raised by the linter will show for each file:
 - a description of the issue
 - the path to the rule that flagged the issue
 
+If you would like to suggest a change an existing rule, such as adding an acronym to our list of exceptions, please raise this in the [#ask-di-tech-writing-architecture](https://gds.slack.com/archives/C06V5UTTJNP) slack channel, and it will be discussed in our regular forum.
+
 ## Installing the linter on your local machine
 
 1. Install [Homebrew](https://brew.sh/).
