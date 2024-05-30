@@ -32,6 +32,7 @@ Packages = https://github.com/alphagov/tech-docs-linter/releases/latest/download
 erb=md
 MinAlertLevel = error
 [*.{md,org,txt,erb,html}]
+TokenIgnores = (\*{2}(.+)\*{2})
 
 BasedOnStyles = tech-writing-style-guide
 ```
