@@ -28,6 +28,8 @@ StylesPath = vale-styles
 Packages = https://github.com/alphagov/tech-docs-linter/releases/latest/download/tech-writing-style-guide.zip
 
 # Local Config
+[formats]
+erb=md
 MinAlertLevel = error
 [*.{md,org,txt,erb,html}]
 
