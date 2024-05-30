@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.0
+
+### New features
+
+- Add rule to enforce that acronyms are defined on first use. An initial list of exceptions has been agreed by the technical writers
+
 ## v0.1.0
 
 ### New features
