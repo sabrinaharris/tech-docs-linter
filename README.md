@@ -27,6 +27,17 @@ By default, Vale must be run from the same directory as this config file, unless
 1. Run `vale sync` to download the latest tech-docs-linter package and unzip this to your `StylesPath` listed in your config file
 1. Run the command `vale .` to lint the entire repo or provide a path to a directory to lint only that directory for example: `vale source/new-starter-guide/*.erb`
 
+## Releasing an update to the linter
+
+Before releasing a new package make sure the CHANGELOG has been updated.
+To release an update:
+
+- change directory to the styles folder
+- create a zip package of the tech-writing-style-guide folder: `zip -r tech-writing-style-guide.zip tech-writing-style-guide`
+- select **Draft a new release** from the [releases page for the linter](https://github.com/alphagov/tech-docs-linter/releases)
+- upversion the tag and add information about the changes that have been made
+- upload the tech-writing-style-guide package
+
 ## Additional Resources
 
 ### Template Vale config
