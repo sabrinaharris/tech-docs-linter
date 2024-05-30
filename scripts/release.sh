@@ -1,1 +1,0 @@
-zip -r tech-writing-style-guide.zip styles/tech-writing-style-guide

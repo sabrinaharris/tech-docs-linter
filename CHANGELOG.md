@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.0
+
+### New features
+
+- Add rule to enforce that acronyms are defined on first use. GDS technical writers have agreed an initial list of exceptions
+
 ## v0.1.0
 
 ### New features
