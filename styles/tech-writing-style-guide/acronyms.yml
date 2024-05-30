@@ -16,6 +16,7 @@ exceptions:
 - NHS
 - DBS
 - NCSC
+- DWP
 
 # GOV.UK One Login specific
 - ADR
